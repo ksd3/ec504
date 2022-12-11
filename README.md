@@ -1,3 +1,10 @@
-# This repository holds the code for the final project of EC504.
+README
 
-To compile, simply run ``make`` in terminal, then ``./a.out``. 
+to build:  
+clang++ -std=c++11 -stdlib=libc++ *.cpp  
+
+Reference implementation of octree and kdtree.  
+No optimizations.  
+Both mean to implement the vanilla version of the data structures.  
+Not extensiively tested.  
+May add more trees in the future.  
