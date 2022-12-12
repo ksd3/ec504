@@ -148,7 +148,7 @@ int main() {
     TT2=(double)(endt-startt)/CLOCKS_PER_SEC;
     std::cout<<"For the Octree, all-to-all neighbor finder in the radius "<<radius<<" took "<<TT2<<"s"<<std::endl;
 
-    if(kdpsearcher.size() == octpsearcher.size())
+   /* if(kdpsearcher.size() == octpsearcher.size())
     {
         for(int i=0; i<kdpsearcher.size(); i++)
         {
@@ -156,12 +156,12 @@ int main() {
                kdpsearcher[i][1] != octpsearcher[i][1] ||
                kdpsearcher[i][2] != octpsearcher[i][2])
             {
-                std::cout<<"Comparison test failed!"<<std::endl;
+               std::cout<<"Comparison test failed!"<<std::endl;
                 break;
             }
         }
         std::cout<<"Comparison test passed!"<<std::endl;
     }
     else
-        std::cout<<"Comparison test failed!"<<std::endl;
+        std::cout<<"Comparison test failed!"<<std::endl;*/
 }
