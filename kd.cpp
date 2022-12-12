@@ -1,4 +1,5 @@
 #include "kd.h"
+#include<algorithm>
 
 //contructing the tree
 //every time the depth increases the axis is split

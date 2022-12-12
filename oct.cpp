@@ -1,5 +1,5 @@
 #include "oct.h"
-
+#include<algorithm>
 //build octree to a certain depth
 static OctNode* _build_octree(int depth, const Vec3& minimum_dimensions, const Vec3& maximum_dimensions)
 {
